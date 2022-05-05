@@ -1,5 +1,5 @@
 {
-  "name": "message-maker",
+  "name": "protocol-maker",
   "version": "0.0.0",
   "description": "",
   "main": "src/index.js",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datdotorg/message-maker.git"
+    "url": "git+https://github.com/datdotorg/protocol-maker.git"
   },
   "author": "ninabreznik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/datdotorg/message-maker/issues"
+    "url": "https://github.com/datdotorg/protocol-maker/issues"
   },
-  "homepage": "https://github.com/datdotorg/message-maker#readme"
+  "homepage": "https://github.com/datdotorg/protocol-maker#readme",
+  "dependencies": {
+    "message-maker": "github:datdotorg/message-maker"
+  }
 }
